@@ -1,0 +1,16 @@
+# Vms spec
+vm_name              = "dev-rocky-vm"
+project_folder_name  = "Project1"
+vm_ip_address        = "192.168.1.100"
+vm_netmask           = 24
+vm_gateway           = "192.168.1.1"
+vm_disk_size         = 30
+vm_memory            = 4096
+vm_cpus              = 2
+
+# Sensetive
+vm_user_default      = "rocky"
+vm_password_default  = "rocky_default_password"
+
+vsphere_user         = "administrator@vsphere.local"
+vsphere_password     = "your_vsphere_password"
