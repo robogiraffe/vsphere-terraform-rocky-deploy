@@ -48,15 +48,15 @@ Usage
    terraform apply -var-file="project.tfvars"
    
 5. Destroying
-6. 
+ 
    terraform destroy -var-file="project.tfvars"
 
 Expected Outcome
 
 After a successful terraform apply run, you will have the following infrastructure:
 
-• A virtual machine will be deployed to the folder specified in your project.tfvars file.
+  • A virtual machine will be deployed to the folder specified in your project.tfvars file.
 
-• The virtual machine's disk will be expanded to 100% of the available space you defined.
+  • The virtual machine's disk will be expanded to 100% of the available space you defined.
 
-• SSH keys on the virtual machine will be renewed for improved security.
+  • SSH keys on the virtual machine will be renewed for improved security.
