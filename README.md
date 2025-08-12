@@ -1,6 +1,6 @@
 # vsphere-terraform-rocky-deploy
 
-vsphere terraform Rocky-linux 9 automation deploy
+vsphere terraform Rocky linux 9 automation deploy
 
 This project relies on a pre-configured Rocky linux 9 template in vSphere.
 
