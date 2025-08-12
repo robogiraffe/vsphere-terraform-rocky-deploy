@@ -35,21 +35,10 @@ Configuration
 
 Usage
 
-1. Initialization
-
-   terraform init
-
-2. Planning
-
-   terraform plan -var-file="project.tfvars"
-
-4. Applying
-
-   terraform apply -var-file="project.tfvars"
-   
-5. Destroying
- 
-   terraform destroy -var-file="project.tfvars"
+    terraform init
+    terraform plan -var-file="project.tfvars"
+    terraform apply -var-file="project.tfvars"
+    terraform destroy -var-file="project.tfvars"
 
 Expected Outcome
 
