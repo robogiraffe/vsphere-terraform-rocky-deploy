@@ -1,4 +1,5 @@
 # vsphere-terraform-rocky-deploy
+
 vsphere terraform Rocky-linux 9 automation deploy
 
 This project relies on a pre-configured Rocky linux 9 template in vSphere.
@@ -18,8 +19,11 @@ Requirements:
 Configuration
 
 1. Configure project.tfvars
+
     ◦ Create a project.tfvars file based on the tfvars-template and fill it out. This file contains all project secrets and must be in .gitignore.
-2. Configure provider.tf
+   
+3. Configure provider.tf
+
     ◦ Specify the address of your vSphere server.
 
        provider "vsphere" {
