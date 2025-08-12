@@ -5,12 +5,14 @@ This project relies on a pre-configured Rocky linux 9 template in vSphere.
 
 Requirements:
 
-• Installed Terraform.
-• Access to vSphere.
-• Rocky linux 9 Template.
+    • Installed Terraform.
+    • Access to vSphere.
+    • Rocky linux 9 Template.
     
 1. Create a Base VM
+
    ◦ Create a virtual machine from a clean Rocky linux 9 image.
+
 2. Prepare template accordingly https://docs.rockylinux.org/guides/automation/templates-automation-packer-vsphere/
 
 Configuration
