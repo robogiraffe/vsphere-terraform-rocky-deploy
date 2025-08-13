@@ -1,23 +1,24 @@
 data "vsphere_datacenter" "datacenter" {
-  name = "Datacenter"
+  name = var.vm_vsphere_datacenter
 }
 
 data "vsphere_host" "host" {
-  name          = "192.168.122.100"
+  name          = var.vm_vsphere_host
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
 
 data "vsphere_datastore" "datastore" {
-  name          = "datastore1"
+  name          = var.vm_vsphere_datastore
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
 
 data "vsphere_virtual_machine" "template" {
-  name          = "Rocky9"
+  name          = var.vm_template
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
 
 data "vsphere_network" "network" {
-  name          = "VM Network"
+  name          = var.wan_network_name
   datacenter_id = data.vsphere_datacenter.datacenter.id
 }
+
